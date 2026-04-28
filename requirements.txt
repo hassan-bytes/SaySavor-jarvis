@@ -5,33 +5,33 @@
 # ==============================================================================
 
 # --- Web Framework ---
-fastapi>=0.104.0
-uvicorn>=0.24.0
+fastapi
+uvicorn
 
 # --- LLM & AI ---
-google-genai>=0.8.0          # new google.genai SDK (v1beta, supports gemini-2.0+)
-google-generativeai>=0.6.0   # kept for compatibility
-groq>=1.0.0                  # Groq LLM fallback (LLama-3.3-70b)
+google-genai        # new google.genai SDK (v1beta, supports gemini-2.0+)
+google-generativeai   # kept for compatibility
+groq          # Groq LLM fallback (LLama-3.3-70b)
 
 # --- Speech-to-Text (Deepgram - Cloud API) ---
-deepgram-sdk>=3.0.0
+deepgram-sdk
 
 # --- Text-to-Speech (Edge TTS - Microsoft Neural Voices) ---
-edge-tts>=6.1.12
+edge-tts
 
 # --- Environment & Configuration ---
-python-dotenv>=1.0.1
+python-dotenv
 
 # --- Database (Supabase) ---
-supabase>=2.9.0
+supabase
 
 # --- HTTP Client ---
-httpx>=0.27.0
-requests>=2.31.0
+httpx
+requests
 
 # --- Logging ---
-loguru>=0.7.2
+loguru
 
 # --- Async Support ---
-asyncio>=3.4.3
-aiofiles>=23.2.0
+asyncio
+aiofiles
